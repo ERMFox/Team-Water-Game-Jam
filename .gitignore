@@ -14,3 +14,9 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Configuration files
+.env
+
+# Obsidian specific ignores
+.obsidian
