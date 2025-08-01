@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1kp2dkn3cldm"]
+
+[ext_resource type="Script" uid="uid://bn7dv2ui1l8x2" path="res://Scripts/Menus/credits.gd" id="1_strk8"]
+[ext_resource type="PackedScene" uid="uid://b5w3s8rly2kti" path="res://Scenes/Main/main_menu.tscn" id="2_y52f8"]
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_strk8")
+main_menu_scene = ExtResource("2_y52f8")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+clip_contents = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="CreditsContainer" type="VBoxContainer" parent="ScrollContainer"]
+clip_contents = true
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+alignment = 1

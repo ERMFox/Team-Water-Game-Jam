@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Team Water Game Jam"
+run/main_scene="uid://b5w3s8rly2kti"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
