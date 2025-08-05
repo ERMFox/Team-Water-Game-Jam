@@ -1,13 +1,13 @@
 
 ## 1. Game Overview
 
-- **Title:** (TBA upon specification of game)
+- **Title:** Aquagreen (to be changed if something comes up)
     
-- **Genre:** (TBA upon specification of game)
+- **Genre:** Factory sim / automation
     
 - **Platform(s):** PC
     
-- **Target Audience:** (TBA upon specification of game)
+- **Target Audience:** Players who enjoy **optimization, logistics, systems thinking**, and **problem-solving**
     
 - **Elevator Pitch:** (TBA upon specification of game)
     

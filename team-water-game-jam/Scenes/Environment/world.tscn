@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bp363p4i4uiiu"]
+
+[ext_resource type="Script" uid="uid://fqvyi1u7bq0v" path="res://Scripts/Enviroment/tickTimer.gd" id="1_65wml"]
+[ext_resource type="Script" uid="uid://ditj5prd72w2n" path="res://Scripts/Enviroment/worldManager.gd" id="1_lrwwn"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_lrwwn")
+
+[node name="Timer" type="Timer" parent="."]
+script = ExtResource("1_65wml")
+
+[node name="PlacementPreview" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)

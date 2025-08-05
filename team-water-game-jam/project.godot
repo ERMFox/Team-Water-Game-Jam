@@ -15,6 +15,10 @@ run/main_scene="uid://b5w3s8rly2kti"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+TickTimer="*res://Scripts/Enviroment/tickTimer.gd"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
