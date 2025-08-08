@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bp363p4i4uiiu"]
+[gd_scene load_steps=4 format=3 uid="uid://bp363p4i4uiiu"]
 
 [ext_resource type="Script" uid="uid://fqvyi1u7bq0v" path="res://Scripts/Enviroment/tickTimer.gd" id="1_65wml"]
 [ext_resource type="Script" uid="uid://ditj5prd72w2n" path="res://Scripts/Enviroment/worldManager.gd" id="1_lrwwn"]
+[ext_resource type="PackedScene" uid="uid://crqohhxsgagw6" path="res://Scenes/UI/camera.tscn" id="3_mh7mo"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_lrwwn")
@@ -11,3 +12,5 @@ script = ExtResource("1_65wml")
 
 [node name="PlacementPreview" type="Sprite2D" parent="."]
 scale = Vector2(0.5, 0.5)
+
+[node name="Camera2D" parent="." instance=ExtResource("3_mh7mo")]
